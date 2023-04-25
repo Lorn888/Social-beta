@@ -33,3 +33,5 @@ const storage = multer.diskStorage({
     cd(null, file.originalname);
   },
 });
+
+const upload = multer({ storage });
